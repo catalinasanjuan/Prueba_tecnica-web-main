@@ -1,10 +1,10 @@
-# 📌 Proyecto de Gestión de Usuarios
+# Proyecto de Gestión de Usuarios
 
-## 📖 Descripción
+## Descripción
 
 Este proyecto es una aplicación web para la gestión de usuarios, desarrollada con **Angular** para el frontend y **NestJS** con **PostgreSQL** para el backend.
 
-## 🛠 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Frontend:** Angular (Standalone Components)  
 - **Backend:** NestJS  
@@ -14,12 +14,11 @@ Este proyecto es una aplicación web para la gestión de usuarios, desarrollada 
 
 ## ⚙ Instalación y Configuración
 
-### 1️⃣ Clonar el repositorio
+### Clonar el repositorio
 
 ```bash
 git clone https://github.com/catalinasanjuan/Prueba_tecnica-web-main.git
 cd Prueba_tecnica-web-main
-
 
 ### 2. Configurar el Backend
 
