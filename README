@@ -1,7 +1,7 @@
 # Proyecto de Gestión de Usuarios
 
 ## Descripción
-Este proyecto es una aplicación web para la gestión de usuarios, desarrollada con Angular para el frontend y NestJS con PostgreSQL para el backend.
+Este proyecto es una aplicación web para la gestión de usuarios, desarrollada con **Angular** para el frontend y **NestJS** con **PostgreSQL** para el backend.
 
 ## Tecnologías Utilizadas
 - **Frontend:** Angular (Standalone Components)
@@ -15,34 +15,35 @@ Este proyecto es una aplicación web para la gestión de usuarios, desarrollada 
 ## Instalación y Configuración
 
 ### 1. Clonar el repositorio
-```
- git clone https://github.com/catalinasanjuan/Prueba_tecnica-web-main.git
- cd Prueba_tecnica-web-main
+```bash
+git clone https://github.com/catalinasanjuan/Prueba_tecnica-web-main.git
+cd Prueba_tecnica-web-main
 ```
 
 ### 2. Configurar el Backend
 
 #### a) Instalar dependencias
 ```bash
- cd project/backend
- npm install
+cd project/backend
+npm install
 ```
 
-#### b) Credenciales Login
-admin@example.com
-password123
-
+#### b) Credenciales de acceso
+```
+Email: admin@example.com
+Contraseña: password123
+```
 
 #### c) Ejecutar migraciones
 ```bash
- npm run migration:run
+npm run migration:run
 ```
 
 #### d) Iniciar el servidor
 ```bash
- npm run start
+npm run start
 ```
-El backend estará disponible en: `http://localhost:3000`
+El backend estará disponible en: [http://localhost:3000](http://localhost:3000)
 
 ---
 
@@ -50,21 +51,20 @@ El backend estará disponible en: `http://localhost:3000`
 
 #### a) Instalar dependencias
 ```bash
- cd project/src
- npm install
+cd project/src
+npm install
 ```
 
 #### b) Iniciar el servidor de desarrollo
 ```bash
- npm run start
+npm run start
 ```
-El frontend estará disponible en: `http://localhost:4200`
+El frontend estará disponible en: [http://localhost:4200](http://localhost:4200)
 
 ---
 
 ## Uso de la Aplicación
-
-1. Accede al frontend en `http://localhost:4200`
+1. Accede al frontend en [http://localhost:4200](http://localhost:4200)
 2. Inicia sesión con un usuario registrado en la base de datos
 3. Administra usuarios (crear, editar, eliminar)
 4. Para consultar los usuarios directamente en la base de datos, usa:
@@ -89,8 +89,8 @@ SELECT * FROM users;
 ---
 
 ## Notas Adicionales
-- Si hay problemas con el puerto 3000 en el backend, cambiarlo en `main.ts`
-- Si la base de datos no carga correctamente, revisar la configuración en el `.env`
+- Si hay problemas con el puerto 3000 en el backend, cambiarlo en `main.ts`.
+- Si la base de datos no carga correctamente, revisar la configuración en el archivo `.env`.
 - Para resetear la base de datos, eliminar el contenedor o datos de PostgreSQL y volver a correr las migraciones.
 
 ---
