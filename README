@@ -1,24 +1,25 @@
-# Proyecto de Gestión de Usuarios
+# 📌 Proyecto de Gestión de Usuarios
 
-## Descripción
+## 📖 Descripción
+
 Este proyecto es una aplicación web para la gestión de usuarios, desarrollada con **Angular** para el frontend y **NestJS** con **PostgreSQL** para el backend.
 
-## Tecnologías Utilizadas
-- **Frontend:** Angular (Standalone Components)
-- **Backend:** NestJS
-- **Base de Datos:** PostgreSQL
-- **ORM:** TypeORM
-- **Autenticación:** JWT (JSON Web Tokens)
+## 🛠 Tecnologías Utilizadas
 
----
+- **Frontend:** Angular (Standalone Components)  
+- **Backend:** NestJS  
+- **Base de Datos:** PostgreSQL  
+- **ORM:** TypeORM  
+- **Autenticación:** JWT (JSON Web Tokens)  
 
-## Instalación y Configuración
+## ⚙ Instalación y Configuración
 
-### 1. Clonar el repositorio
+### 1️⃣ Clonar el repositorio
+
 ```bash
 git clone https://github.com/catalinasanjuan/Prueba_tecnica-web-main.git
 cd Prueba_tecnica-web-main
-```
+
 
 ### 2. Configurar el Backend
 
